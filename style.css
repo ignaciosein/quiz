@@ -1,0 +1,31 @@
+.red {
+    color: red;
+    font-weight: bolder;
+}
+
+.green {
+    color: rgb(6, 255, 6);
+    font-weight: bolder;
+}
+
+.red_back {
+    border: solid 2px red;
+}
+
+.green_back {
+    border: solid 2px rgb(6, 255, 6);
+}
+
+.default {
+    color: black;
+}
+
+.edadOK {
+    color: rgb(6, 255, 6);
+    font-weight: bolder;
+}
+
+.edadFalse {
+    color: red;
+    font-weight: bolder;
+}
