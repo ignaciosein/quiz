@@ -29,3 +29,48 @@
     color: red;
     font-weight: bolder;
 }
+
+
+/* Flex */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+header {
+    display: flex;
+}
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+}
+
+.preguntas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h3 {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#q5006 {
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#quiz>section:nth-child(6)>ul>li>label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
